@@ -1,0 +1,112 @@
+.color-example {
+    color: darkolivegreen;
+    background-color: #ffffff; 
+    border: 3px solid #ffffff; 
+}
+.text-example{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    font-size: larger;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+}
+.div-example{
+
+        background-color: #e0e2e4;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        color: #847d7d;
+        background-size: cover;
+        border-radius: 50%;          /* Makes the div circular */
+        width: 200px;                /* Fixed width */
+        height: 100px;               /* Fixed height - keep equal to width for perfect circle */
+        box-shadow: 
+            0 4px 8px rgba(0, 0, 0, 0.2),    /* Outer shadow */
+            inset 0 0 20px rgba(139, 138, 138, 0.5);  /* Inner glow */
+        overflow: hidden;            /* Keeps content inside the bubble */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease;   /* Smooth hover effect */
+        backdrop-filter: blur(5px);        /* Frosted glass effect */
+        border: 1px solid rgba(177, 176, 176, 0.2);  /* Subtle border */
+    }
+    
+    
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1efef;
+        }
+        .header-example {
+            font-family:  fan,  sans-serif;
+            font-size:xx-large;
+            background-color: #b29595;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav .list-example {
+            
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #c9b0ad;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        nav .list-example li {
+            margin: 10px 20px;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        nav .list-example li::before {
+        
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #ffffff;
+            font-size: 1.2em;
+            line-height: 1;
+        }
+        
+        nav .list-example a {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: fantasy, sans-serif;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        nav .list-example a:hover {
+            color: #796262;
+        }
+        
+        
+        main {
+            max-width: 800px;
+            margin: 0em auto;
+            padding: 1em;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            width: 100%;
+        }
+        section {
+            min-height: 20vh;
+            padding-top: 60px;
+            margin-top: -60px;
+        }
+    
