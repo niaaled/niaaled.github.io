@@ -1,3 +1,4 @@
+
 .color-example {
     color: darkolivegreen;
     background-color: #ffffff; 
@@ -17,19 +18,19 @@
         font-size: small;
         color: #847d7d;
         background-size: cover;
-        border-radius: 50%;          /* Makes the div circular */
-        width: 200px;                /* Fixed width */
-        height: 100px;               /* Fixed height - keep equal to width for perfect circle */
+        border-radius: 50%;          
+        width: 200px;                
+        height: 100px;              
         box-shadow: 
-            0 4px 8px rgba(0, 0, 0, 0.2),    /* Outer shadow */
-            inset 0 0 20px rgba(139, 138, 138, 0.5);  /* Inner glow */
-        overflow: hidden;            /* Keeps content inside the bubble */
+            0 4px 8px rgba(0, 0, 0, 0.2),    /
+            inset 0 0 20px rgba(139, 138, 138, 0.5);  
+        overflow: hidden;         
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: transform 0.3s ease;   /* Smooth hover effect */
-        backdrop-filter: blur(5px);        /* Frosted glass effect */
-        border: 1px solid rgba(177, 176, 176, 0.2);  /* Subtle border */
+        transition: transform 0.3s ease;   
+        backdrop-filter: blur(5px);       
+        border: 1px solid rgba(177, 176, 176, 0.2);  
     }
     
     
@@ -109,4 +110,52 @@
             padding-top: 60px;
             margin-top: -60px;
         }
+        .header-image {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            object-fit: contain;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }   
+        
+        .practicemakesperf-image {
+            width: 100%;
+            max-height: 100vh;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+}
+        }
+        
+        figcaption {
+            font-style: italic;
+            margin-top: 10px;
+        }
+        
+        .skills {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        
+        label {
+            
+            width: 100px;
+            margin: 10px 0;
+        }
+        
+        progress {
+            width: 600px;
+            height: 20px;
+            margin-left: 10px;
+            
+        
+        }
+        
     
