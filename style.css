@@ -238,5 +238,10 @@ progress::-moz-progress-bar {
 
 }
 
-
+.thirmain {
+    margin-left: 220px; /* Adjusted to account for nav width and spacing */
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
     
