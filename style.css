@@ -228,13 +228,14 @@ progress::-moz-progress-bar {
 }
 
  #Contact {
-    margin-left: 220px;
+    margin-left: 200px; /* Adjust to match the width of your vertical navigation */
     padding: 20px;
+    text-align: center;
     background-color: #f4f4f4;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     flex: 1;
-    min-height: 100vh;
+    min-height: 20vh;
     box-sizing: border-box;
 }
 
