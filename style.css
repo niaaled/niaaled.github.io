@@ -227,5 +227,16 @@ progress::-moz-progress-bar {
     border-radius: 10px;
 }
 
-        
+ #contact {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+
     
