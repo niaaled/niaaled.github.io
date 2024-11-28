@@ -88,7 +88,53 @@
         nav .list-example a:hover {
             color: #796262;
         }
+        nav .vertical-nav {
+            list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #c9b0ad;
+  float: left; /* Float the nav to the left */
+  height: 100vh; /* Full viewport height */
+}
+
+
+            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #c9b0ad;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
         
+        nav .vertical-nav li {
+            margin: 10px 20px;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        nav .vertical-nav li::before {
+        
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #ffffff;
+            font-size: 1.2em;
+            line-height: 1;
+        }
+        
+        nav .vertical-nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: fantasy, sans-serif;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        nav .vertical-nav a:hover {
+            color: #796262;
+        }
         
         main {
             max-width: 800px;
